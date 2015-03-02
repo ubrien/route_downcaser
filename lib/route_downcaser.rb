@@ -6,6 +6,6 @@ module RouteDowncaser
   extend Configuration
 
   define_setting :redirect, false
-  define_setting :exclude_patterns, [/assets\//i]
-  define_setting :exclude_patterns, [/admin\//i]
+  define_setting :exclude_patterns, [/assets\//i, /admin\//i]
+  #define_setting :exclude_patterns, [/admin\//i]
 end
